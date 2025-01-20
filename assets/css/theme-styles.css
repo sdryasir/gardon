@@ -6,6 +6,10 @@
     --theme-black:#131313;
     --theme-white:#f9f9f9;
 }
+body{
+    overflow: hidden;
+    overflow-y: auto;
+}
 
 /* *************General Styling*************** */
 .btn-theme-primary{
@@ -13,6 +17,15 @@
 }
 .ps-8{
     margin-left: 14rem!important;
+}
+.sec-space{
+    padding: 4rem 0;
+}
+.bg-theme-primary{
+    background-color: var(--theme-primary);
+}
+.text-theme-primary{
+    color: var(--theme-primary);
 }
 
 
@@ -137,6 +150,61 @@
 .navbar-brand img{
     width: 190px;
 }
+
+
+.svc-type div i{
+    font-size: 4rem;
+    color: var(--theme-primary);
+}
+.brdr-circle{
+    border: 3px dotted var(--theme-primary);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.welcome-inner{
+    position: relative;
+}
+.welcome-inner .img1{
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.welcome-inner .img-wrapper{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6rem;
+    left: 6rem;
+    border: 0.5rem solid var(--theme-white);
+}
+.welcome-inner .shape{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-60%);
+}
+.welcome-inner .shap-text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: var(--theme-white);
+}
+.welcome-inner .shap-text h3{
+   font-size: 3rem;
+   margin-top: -11px;
+   margin-right: 6px;
+}
+.welcome-inner .img2{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
 
 
 
